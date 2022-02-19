@@ -8,66 +8,83 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header id="header">
-    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo" id="header-img">
-</header>
-    <nav class="nav-bar"> 
-        <a href="#features" class="nav-link">Features</a> 
-        <a href="#how-it-works" class="nav-link">How It Works</a> 
-        <a href="#pricing" class="nav-link">Pricing</a>
-    </nav>
-   
+    
+   <div class="page-wrapper">
+       <header id="header">
+        <div class="logo">
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo" id="header-img">
+        </div>
+        <nav class="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#how-it-works" class="nav-link">How It Works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+        </nav>
+       </header>
 
-    <section id="email"> 
-       <h1>Handcrafted, home-made masterpieces</h1>
-            <form action="" id=""form>   
-                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
-                <input type="submit" value="GET STARTED" id="submit" class="btn">
-            </form>
-    </section>  
+        <section class="email">
+           <h1>Handcrafted, home-made masterpieces</h1>
+                <form action="" id="form">
+                    <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+                    <input type="submit" value="GET STARTED" id="submit" class="btn">
+                </form>
+        </section>  
 
-<div id="features">
-    <h2>Premium Materials</h2>
-        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-    <h2>Fast Shipping</h2>
-        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied. </p>
-    <h2>Quality Assurance</h2>
-        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
-
-</div>
-
-<div id="how-it-works">
-    <iframe src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" height="315" allowfullscreen></iframe>
-</div>
-
-<div id="pricing">
-    <div class="trombone-1">
-        <h3>TENOR TROMBONE</h3>
-        <h4>$600</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat impedit nemo ullam possimus nulla assumenda, consectetur sit ab tempora ad inventore quasi id! Expedita, quia consectetur et earum !</p>
-        <input type="button" value="SELECT" class="btn">
+       <div class="container">
+       <section id="features">
+           <div class="grid">
+               <div class = "desc">
+                    <h2>Premium Materials</h2>
+                        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </div>  
+        <div class="grid">
+            <div class="desc">                 
+                <h2>Fast Shipping</h2>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied. </p>
+            </div>
+        </div>
+        <div class="grid>">
+            <div class ="desc">       
+                <h2>Quality Assurance</h2>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+          </div>
+        <div>  
+       </section>
+       
+       <section id="how-it-works">
+        <iframe src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" height="315" allowfullscreen></iframe>
+       </section>
+       
+       <section id="pricing">
+        <div class="product" id="trombone-1">
+            <h3 class="level">TENOR TROMBONE</h3>
+            <h4>$600</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat impedit nemo ullam possimus nulla assumenda, consectetur sit ab tempora ad inventore quasi id! Expedita, quia consectetur et earum !</p>
+            <button class="btn">SELECT</button>
+        </div>
+        <div class="product" id="trombone-2">
+            <h3 class="level">BASS TROMBONE</h3>
+            <h4>$900</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolorum velit iste officia veniam non ut facilis quasi voluptates praesentium, eligendi sed maxime, eos expedita quod quaerat qui eveniet? Iure?</p>
+            <button class="btn">SELECT</button>
+        </div>
+        <div class="product" id="trombone-3">
+            <h3 class="level">VALVE TRAMBONE</h3>
+            <h4>$1200</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci et distinctio vel similique voluptatem suscipit laudantium, vitae dignissimos, quibusdam consectetur in officiis commodi dicta alias ipsa ea neque ab cum.</p>
+            <button class="btn">SELECT</button>
+       </div>
+       </section>
+       <footer>
+        <p>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
+        </p>
+        <p>Copyright 2016, Original Trombones</p>
+       
+       </footer>
     </div>
-    <div class="trombone-2">
-        <h3>BASS TROMBONE</h3>
-        <h4>$900</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolorum velit iste officia veniam non ut facilis quasi voluptates praesentium, eligendi sed maxime, eos expedita quod quaerat qui eveniet? Iure?</p>
-        <input type="button" value="SELECT" class="btn">
-    </div>
-    <div class="trombone-3">
-        <h3>VALVE TRAMBONE</h3>
-        <h4>$1200</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci et distinctio vel similique voluptatem suscipit laudantium, vitae dignissimos, quibusdam consectetur in officiis commodi dicta alias ipsa ea neque ab cum.</p>
-        <input type="button" value="SELECT" class="btn">
-    </div>
-</div>
-<footer>
-    <p>
-        <a href="#">Privacy</a> 
-        <a href="#">Terms</a> 
-        <a href="#">Contact</a>
-    </p>
-    <p>Copyright 2016, Original Trombones</p>
-   
-</footer>
+   </div>
 </body>
 </html>
